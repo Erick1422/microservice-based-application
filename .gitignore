@@ -1,2 +1,3 @@
 books/node_modules
 books/package-lock.json
+books/.env

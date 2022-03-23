@@ -1,3 +1,6 @@
 books/node_modules
 books/package-lock.json
 books/.env
+customers/node_modules
+customers/package-lock.json
+customers/.env

@@ -24,7 +24,7 @@ customerCtrl.listAllCustomers = async (req, res) => {
     }
 }
 
-/* customerCtrl.listCustomerById = async (req, res = response) => {
+customerCtrl.listCustomerById = async (req, res = response) => {
     try {
         const { id } = req.params;
         let customer = await Customer.findById(id);
@@ -38,7 +38,7 @@ customerCtrl.listAllCustomers = async (req, res) => {
     } catch (error) {
         console.log(error);
     }
-} */
+}
 
 customerCtrl.deleteCustomer = async (req, res) => {
     try {
